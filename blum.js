@@ -1,15 +1,3 @@
-// ==UserScript==
-// @name         BlumFarm
-// @version      1.1
-// @namespace    MrGhostXBOT
-// @author       MrGhostXBOT
-// @match        https://telegram.blum.codes/*
-// @grant        none
-// @icon         https://raw.githubusercontent.com/ilfae/ilfae/main/logo.webp
-// @updateURL    http://m90237h7.beget.tech/private_files/BlumFarm.user.js
-// @downloadURL  http://m90237h7.beget.tech/private_files/BlumFarm.user.js
-// ==/UserScript==
-
 let GAME_SETTINGS = {
     BombHits: Math.floor(Math.random() * 2),
     IceHits: Math.floor(Math.random() * 2) + 2,
