@@ -1,12 +1,12 @@
 let GAME_SETTINGS = {
-    BombHits: Math.floor(Math.random() * 2),
-    IceHits: Math.floor(Math.random() * 2) + 2,
-    flowerSkipPercentage: Math.floor(Math.random() * 11) + 15,
+    BombHits: 0,
+    IceHits: 2,
+    flowerSkipPercentage: 5,
     minDelayMs: 2000,
     maxDelayMs: 5000,
 };
 
-let isGamePaused = true;
+let isGamePaused = false;
 let isSettingsOpen = false;
 
 try {
